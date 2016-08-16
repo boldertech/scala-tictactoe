@@ -1,0 +1,18 @@
+
+apply plugin: 'scala'
+apply plugin: 'application'
+
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    compile 'org.scala-lang:scala-library:2.11.8'
+}
+
+mainClassName = "sample.TicTacToe"
+
+run{
+    standardInput = System.in
+}
