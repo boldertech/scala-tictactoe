@@ -3,10 +3,11 @@ TicTacToe homework for scalastudy.
 
 # Instructions
 The board is setup like this:
- 1 | 2 | 3
---- | --- | ---
-4 | 5 | 6
-7 | 8 | 9
+
+|   1   |   2   |   3   |
+|: --- :|: --- :|: --- :|
+|   4   |   5   |   6   |
+|   7   |   8   |   9   |
 
 * Simply press the number for the cell in the board you wish to place your move.
 
