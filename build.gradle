@@ -11,7 +11,7 @@ dependencies {
     compile 'org.scala-lang:scala-library:2.11.8'
 }
 
-mainClassName = "sample.TicTacToe"
+mainClassName = "TicTacToe"
 
 run{
     standardInput = System.in
