@@ -10,6 +10,11 @@ object TicTacToe {
 
   case class Row(left: Option[PlayerChoice], middle: Option[PlayerChoice], right: Option[PlayerChoice]) {
     def hasWinner: Boolean = {
+      // Another way that would be considered more idiomatic:
+      // (left, middle, right) match {
+      //   case (x @ Some(_), y, z) if x == y && y == z => true
+      //   case _ => false
+      // }
       left.isDefined && left == middle && middle == right
     }
 
